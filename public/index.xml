@@ -6,7 +6,7 @@
     <description>Recent content on 流水账日记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 01 Apr 2024 16:28:10 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 11 May 2024 15:54:59 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
@@ -16,10 +16,59 @@
       <description></description>
     </item>
     <item>
-      <title>Second</title>
-      <link>http://localhost:1313/posts/second/</link>
+      <title>笔记 张新民教授财务报表分析</title>
+      <link>http://localhost:1313/posts/%E7%AC%94%E8%AE%B0-%E5%BC%A0%E6%96%B0%E6%B0%91%E6%95%99%E6%8E%88%E8%B4%A2%E5%8A%A1%E6%8A%A5%E8%A1%A8%E5%88%86%E6%9E%90/</link>
+      <pubDate>Sat, 11 May 2024 15:54:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E7%AC%94%E8%AE%B0-%E5%BC%A0%E6%96%B0%E6%B0%91%E6%95%99%E6%8E%88%E8%B4%A2%E5%8A%A1%E6%8A%A5%E8%A1%A8%E5%88%86%E6%9E%90/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>旅游 绍兴</title>
+      <link>http://localhost:1313/posts/%E6%97%85%E6%B8%B8-%E7%BB%8D%E5%85%B4/</link>
+      <pubDate>Thu, 09 May 2024 11:02:12 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E6%97%85%E6%B8%B8-%E7%BB%8D%E5%85%B4/</guid>
+      <description>3月21号（周四）上午出发，24号（周日）中午返程。 交通 提前预定了火车票、租了汽车 上海-嘉兴 绿皮车 嘉兴-海宁 自驾 海宁-绍兴 自驾 绍兴-嘉兴 自驾 嘉兴-上海 绿皮车 每日详情 第一天 3月21号9:00上海南站坐绿皮车1小时到嘉兴站，预定了一嗨的汽车。取车走国道开到海宁，中午在海宁火车站附近吃</description>
+    </item>
+    <item>
+      <title>日语</title>
+      <link>http://localhost:1313/posts/japanese/</link>
+      <pubDate>Thu, 09 May 2024 10:59:35 +0800</pubDate>
+      <guid>http://localhost:1313/posts/japanese/</guid>
+      <description>语法参考资料 GuidetoJapan 中文翻译</description>
+    </item>
+    <item>
+      <title>Remote Job</title>
+      <link>http://localhost:1313/posts/remote-job/</link>
+      <pubDate>Thu, 09 May 2024 10:54:08 +0800</pubDate>
+      <guid>http://localhost:1313/posts/remote-job/</guid>
+      <description>国外远程工作发布网站 Startup SimplyHired Indeed 国内 电鸭</description>
+    </item>
+    <item>
+      <title>Python 数据分析</title>
+      <link>http://localhost:1313/posts/python-data-analyse/</link>
+      <pubDate>Thu, 09 May 2024 10:46:49 +0800</pubDate>
+      <guid>http://localhost:1313/posts/python-data-analyse/</guid>
+      <description>参考资料 利用 Python 进行数据分析 · 第 2 版</description>
+    </item>
+    <item>
+      <title>Python Pip</title>
+      <link>http://localhost:1313/posts/python-pip/</link>
+      <pubDate>Thu, 09 May 2024 10:37:36 +0800</pubDate>
+      <guid>http://localhost:1313/posts/python-pip/</guid>
+      <description>国内镜像加速 pip install {packagename} -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host=mirrors.aliyun.com</description>
+    </item>
+    <item>
+      <title>Python Matplotlib</title>
+      <link>http://localhost:1313/posts/python-matplotlib/</link>
+      <pubDate>Thu, 09 May 2024 10:30:23 +0800</pubDate>
+      <guid>http://localhost:1313/posts/python-matplotlib/</guid>
+      <description>中文乱码（显示框框） 直接使用matplotlib的情况，添加一下代码即可 1 plt.rcParams[&amp;#39;font.sans-serif&amp;#39;] = [&amp;#39;Arial Unicode MS&amp;#39;] 使用mplfinance库时需要添加一下代码 1 2 my_style = mpf.make_mpf_style(rc={&amp;#39;font.sans-serif&amp;#39; :&amp;#39;Arial Unicode MS&amp;#39;}) mpf.plot(dataframe, style=my_style)</description>
+    </item>
+    <item>
+      <title>厨艺</title>
+      <link>http://localhost:1313/posts/%E5%8E%A8%E8%89%BA/</link>
       <pubDate>Mon, 01 Apr 2024 16:28:10 +0800</pubDate>
-      <guid>http://localhost:1313/posts/second/</guid>
+      <guid>http://localhost:1313/posts/%E5%8E%A8%E8%89%BA/</guid>
       <description>第二篇测试 周六做了一盘小炒肉，油放少了，导致五花肉没有煎出太多油，菜不香，肉吃起来也有点腻。 吃了一点，剩下了一大半在冰箱里。第二天忧郁着倒掉了，浪费啊</description>
     </item>
     <item>
