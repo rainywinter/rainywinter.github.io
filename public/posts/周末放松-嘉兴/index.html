@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+
+    <title>周末放松 嘉兴 | 流水账日记</title>
+    <meta property="og:title" content="周末放松 嘉兴 - 流水账日记">
+    <meta property="og:type" content="article">
+        
+    <meta property="article:published_time" content='2024-06-03T14:55:10&#43;08:00'>
+        
+        
+    <meta property="article:modified_time" content='2024-06-03T14:55:10&#43;08:00'>
+        
+    <meta name="Keywords" content="golang,go语言,go语言笔记,yc,博客">
+    <meta name="description" content="周末放松 嘉兴">
+        
+    <meta name="author" content="yc">
+    <meta property="og:url" content="https://rainywinter.github.io/posts/%E5%91%A8%E6%9C%AB%E6%94%BE%E6%9D%BE-%E5%98%89%E5%85%B4/">
+    <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
+
+    <link rel="stylesheet" href='/css/normalize.css'>
+    <link rel="stylesheet" href='/css/style.css'>
+    <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    
+    
+    
+    
+    
+    
+        <link rel="stylesheet" href='/css/douban.css'>
+    
+        <link rel="stylesheet" href='/css/other.css'>
+    
+</head>
+
+<body>
+    <header id="header" class="clearfix">
+    <div class="container">
+        <div class="col-group">
+            <div class="site-name ">
+                
+                    <a id="logo" href="https://rainywinter.github.io/">
+                        流水账日记
+                    </a>
+                
+                <p class="description">路漫漫其修远兮 吾将上下而求索</p>
+            </div>
+            <div>
+                <nav id="nav-menu" class="clearfix">
+                    <a class="current" href="https://rainywinter.github.io/">Home</a>
+                    
+                    <a  href="https://rainywinter.github.io/tools/" title="工具">工具</a>
+                    
+                    <a  href="https://rainywinter.github.io/archives/" title="归档">归档</a>
+                    
+                    <a  href="https://rainywinter.github.io/about/" title="关于">关于</a>
+                    
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <div id="body">
+        <div class="container">
+            <div class="col-group">
+
+                <div class="col-8" id="main">
+                    
+<div class="res-cons">
+    <style type="text/css">
+    .post-toc {
+        position: fixed;
+        width: 200px;
+        margin-left: -210px;
+        padding: 5px 10px;
+        font-family: Athelas, STHeiti, Microsoft Yahei, serif;
+        font-size: 12px;
+        border: 1px solid rgba(0, 0, 0, .07);
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.98);
+        background-clip: padding-box;
+        -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .125);
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, .125);
+        word-wrap: break-word;
+        white-space: nowrap;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        z-index: 999;
+        cursor: pointer;
+        max-height: 70%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .post-toc .post-toc-title {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .post-toc .post-toc-content {
+        font-size: 15px;
+    }
+
+    .post-toc .post-toc-content>nav>ul {
+        margin: 10px 0;
+    }
+
+    .post-toc .post-toc-content ul {
+        padding-left: 20px;
+        list-style: square;
+        margin: 0.5em;
+        line-height: 1.8em;
+    }
+
+    .post-toc .post-toc-content ul ul {
+        padding-left: 15px;
+        display: none;
+    }
+
+    @media print,
+    screen and (max-width:1057px) {
+        .post-toc {
+            display: none;
+        }
+    }
+</style>
+<div class="post-toc" style="position: absolute; top: 188px;">
+    <h2 class="post-toc-title">Table of Contents</h2>
+    <div class="post-toc-content">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#出发">出发</a></li>
+    <li><a href="#途中">途中</a></li>
+    <li><a href="#到达">到达</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var postToc = $(".post-toc");
+        if (postToc.length) {
+            var leftPos = $("#main").offset().left;
+            if (leftPos < 220) {
+                postToc.css({ "width": leftPos - 10, "margin-left": (0 - leftPos) })
+            }
+
+            var t = postToc.offset().top - 20,
+                a = {
+                    start: {
+                        position: "absolute",
+                        top: t
+                    },
+                    process: {
+                        position: "fixed",
+                        top: 20
+                    },
+                };
+            $(window).scroll(function () {
+                var e = $(window).scrollTop();
+                e < t ? postToc.css(a.start) : postToc.css(a.process)
+            })
+        }
+
+        if ($("#TableOfContents").children().length < 1) {
+            $(".post-toc").remove();
+        }
+    })
+</script>
+    <article class="post">
+        <header>
+            <h1 class="post-title">周末放松 嘉兴</h1>
+        </header>
+        
+  <time datetime="2024-06-03T06:55:10Z" class="post-meta meta-date dt-published">
+    2024-06-03
+  </time>
+
+
+
+        
+        <div class="post-meta">
+            <span id="busuanzi_container_page_pv">&nbsp;|
+                <span id="busuanzi_value_page_pv"></span> <span>reads</span>
+            </span>
+        </div>
+        
+        
+        <div class="post-content">
+            <p>快周末的时候看了看最近的天气不错，气温合适，不热不冷，到6月气温高了之后不适合户外活动。买了去嘉兴的车票。</p>
+<p>计划有：1逛公园 2吃夜市</p>
+<h2 id="出发">出发</h2>
+<p>怎一个紧张了得</p>
+<blockquote>
+<p>由于对象周六上午要拔牙，订了下午3点的。</p>
+<p>周六中午吃完饭收拾行李，1点开始午休半小时，闹钟响了之后麻溜最后的检查，丢垃圾，然后出发。</p>
+<p>出上海南站地铁站之后，发现最近的出口封了，不得已绕行到南广场。由于时间比较紧张，和对象一路小跑，我在前开路。气喘吁吁到进站口时距离发车剩下8分钟左右（😓）。</p>
+</blockquote>
+<h2 id="途中">途中</h2>
+<p>由于是下午的车，乘客较少。我我们选了一个2人座靠窗的位置。</p>
+<p>我对象扣扣手机 闭目养神交替着来。
+我则拿出了《传统十论》读。</p>
+<h2 id="到达">到达</h2>
+<p>出站后步行了一段距离，在路边找了共享电动车来骑（周末卡，共五次，每次前20分钟内免费，后每5分钟1块），在宽阔的马路上沿着河边一侧逆行～</p>
+<p>在壕股塔停了车，沿着南湖边走走停停。</p>
+<p>走了一段原路返回，登到壕股塔顶，共7层。惊讶于这儿的视野，美景尽收眼底。美中不足的是天气有点灰蒙蒙的。
+对象恐高，不敢站到栏杆边上向外看，躲在屋子里～</p>
+<p>
+        <img class="mx-auto" alt="俯瞰南湖" src="jia-xing-nan-hu-1.jpg" />   
+    </p>
+
+        </div>
+
+        
+<div class="post-archive">
+    <ul class="post-copyright">
+        <li><strong>Author: </strong><a rel="author" href="https://rainywinter.github.io/">yc</a></li>
+        <li style="word-break:break-all"><strong>Link: </strong><a href="https://rainywinter.github.io/posts/%E5%91%A8%E6%9C%AB%E6%94%BE%E6%9D%BE-%E5%98%89%E5%85%B4/">https://rainywinter.github.io/posts/%E5%91%A8%E6%9C%AB%E6%94%BE%E6%9D%BE-%E5%98%89%E5%85%B4/</a></li>
+        <li><strong>License: </strong>This work is under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>. Kindly fulfill the requirements of the aforementioned License when adapting or creating a derivative of this work.</li>
+    </ul>
+</div>
+<br/>
+
+
+
+        
+
+<div class="post-archive">
+    <h2>See Also</h2>
+    <ul class="listing">
+        
+        <li><a href="/posts/%E6%97%85%E6%B8%B8-%E7%BB%8D%E5%85%B4/">旅游 绍兴</a></li>
+        
+        <li><a href="/posts/%E7%AC%94%E8%AE%B0-%E5%BC%A0%E6%96%B0%E6%B0%91%E6%95%99%E6%8E%88%E8%B4%A2%E5%8A%A1%E6%8A%A5%E8%A1%A8%E5%88%86%E6%9E%90/">笔记 张新民教授财务报表分析</a></li>
+        
+        <li><a href="/posts/japanese/">日语</a></li>
+        
+        <li><a href="/posts/remote-job/">Remote Job</a></li>
+        
+        <li><a href="/posts/python-data-analyse/">Python 数据分析</a></li>
+        
+    </ul>
+</div>
+
+
+        <div class="post-meta meta-tags">
+            
+            <ul class="clearfix">
+                
+                <li><a href='/tags/%E6%97%85%E6%B8%B8' target="_blank">旅游</a></li>
+                
+            </ul>
+            
+        </div>
+    </article>
+    
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+    
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "your github repo"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
+    
+    
+    
+
+</div>
+
+                    <footer id="footer">
+    <div>
+        &copy; 2024 <a href="https://rainywinter.github.io/">流水账日记 By yc</a>
+        
+    </div>
+    <br />
+    <div>
+        <div class="github-badge">
+            <a href="https://gohugo.io/" target="_black" rel="nofollow"><span class="badge-subject">Powered by</span><span class="badge-value bg-blue">Hugo</span></a>
+        </div>
+        <div class="github-badge">
+            <a href="https://www.flysnow.org/" target="_black"><span class="badge-subject">Design by</span><span class="badge-value bg-brightgreen">飞雪无情</span></a>
+        </div>
+        <div class="github-badge">
+            <a href="https://github.com/flysnow-org/maupassant-hugo" target="_black"><span class="badge-subject">Theme</span><span class="badge-value bg-yellowgreen">Maupassant</span></a>
+        </div>
+    </div>
+</footer>
+
+
+    
+    
+    <script type="text/javascript">
+        window.MathJax = {
+            tex2jax: {
+                inlineMath: [['$', '$']],
+                processEscapes: true
+                }
+            };
+    </script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+<a id="rocket" href="#top"></a>
+<script type="text/javascript" src='/js/totop.js?v=0.0.0' async=""></script>
+<style type="text/css">
+div.highlight {
+    position: relative;
+    margin: 1em 0px;
+}
+
+.copy-code {
+    display: none;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(78, 78, 78, 0.8);
+    border-radius: var(--radius);
+    padding: 0 5px;
+    font: inherit;
+    user-select: none;
+    cursor: pointer;
+    border: 0;
+    --radius: 8px;
+}
+
+div.highlight:hover .copy-code,pre:hover .copy-code {
+    display: block;
+}
+
+</style>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+
+
+    <script type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
+
+
+
+
+    <script src='/js/douban.js'></script>
+
+                </div>
+
+                <div id="secondary">
+    <section class="widget">
+        <form id="search" action='https://rainywinter.github.io/search' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
+      
+      <input type="text" name="q" maxlength="20" placeholder="Search">
+      <input type="hidden" name="sitesearch" value="https://rainywinter.github.io/">
+      <button type="submit" class="submit icon-search"></button>
+</form>
+    </section>
+
+    <section class="widget">
+        <h3 class="widget-title">Latest articles</h3>
+<ul class="widget-list">
+    
+    <li>
+        <a href="https://rainywinter.github.io/posts/%E5%91%A8%E6%9C%AB%E6%94%BE%E6%9D%BE-%E5%98%89%E5%85%B4/" title="周末放松 嘉兴" target="_blank">周末放松 嘉兴</a>
+    </li>
+    
+    <li>
+        <a href="https://rainywinter.github.io/posts/%E7%AC%94%E8%AE%B0-%E5%BC%A0%E6%96%B0%E6%B0%91%E6%95%99%E6%8E%88%E8%B4%A2%E5%8A%A1%E6%8A%A5%E8%A1%A8%E5%88%86%E6%9E%90/" title="笔记 张新民教授财务报表分析" target="_blank">笔记 张新民教授财务报表分析</a>
+    </li>
+    
+    <li>
+        <a href="https://rainywinter.github.io/posts/%E6%97%85%E6%B8%B8-%E7%BB%8D%E5%85%B4/" title="旅游 绍兴" target="_blank">旅游 绍兴</a>
+    </li>
+    
+    <li>
+        <a href="https://rainywinter.github.io/posts/japanese/" title="日语" target="_blank">日语</a>
+    </li>
+    
+    <li>
+        <a href="https://rainywinter.github.io/posts/remote-job/" title="Remote Job" target="_blank">Remote Job</a>
+    </li>
+    
+    <li>
+        <a href="https://rainywinter.github.io/posts/python-data-analyse/" title="Python 数据分析" target="_blank">Python 数据分析</a>
+    </li>
+    
+    <li>
+        <a href="https://rainywinter.github.io/posts/python-pip/" title="Python Pip" target="_blank">Python Pip</a>
+    </li>
+    
+    <li>
+        <a href="https://rainywinter.github.io/posts/python-matplotlib/" title="Python Matplotlib" target="_blank">Python Matplotlib</a>
+    </li>
+    
+    <li>
+        <a href="https://rainywinter.github.io/posts/%E5%8E%A8%E8%89%BA/" title="厨艺" target="_blank">厨艺</a>
+    </li>
+    
+    <li>
+        <a href="https://rainywinter.github.io/posts/my-first-post/" title="My First Post" target="_blank">My First Post</a>
+    </li>
+    
+</ul>
+    </section>
+
+    
+
+    <section class="widget">
+        <h3 class="widget-title"><a href='/categories/'>Categories</a></h3>
+<ul class="widget-list">
+    
+</ul>
+    </section>
+
+    <section class="widget">
+        <h3 class="widget-title"><a href='/tags/'>Tags</a></h3>
+<div class="tagcloud">
+    
+    <a href="https://rainywinter.github.io/tags/job/">Job</a>
+    
+    <a href="https://rainywinter.github.io/tags/python/">Python</a>
+    
+    <a href="https://rainywinter.github.io/tags/%E5%A4%96%E8%AF%AD/">外语</a>
+    
+    <a href="https://rainywinter.github.io/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/">数据分析</a>
+    
+    <a href="https://rainywinter.github.io/tags/%E6%97%85%E6%B8%B8/">旅游</a>
+    
+    <a href="https://rainywinter.github.io/tags/%E6%B5%8B%E8%AF%95/">测试</a>
+    
+    <a href="https://rainywinter.github.io/tags/%E8%B4%A2%E6%8A%A5/">财报</a>
+    
+    <a href="https://rainywinter.github.io/tags/%E8%BF%9C%E7%A8%8B/">远程</a>
+    
+</div>
+    </section>
+
+    
+<section class="widget">
+    <h3 class="widget-title">Links</h3>
+    <ul class="widget-list">
+        
+        <li>
+            <a target="_blank" href="https://www.example.com" title="yc的博客">yc的博客</a>
+        </li>
+        
+    </ul>
+</section>
+
+
+    <section class="widget">
+        <h3 class="widget-title">Meta</h3>
+        <ul class="widget-list">
+            <li><a href="https://rainywinter.github.io/index.xml">RSS</a></li>
+        </ul>
+    </section>
+</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
