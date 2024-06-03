@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>测试 on 流水账日记</title>
-    <link>http://localhost:1313/tags/%E6%B5%8B%E8%AF%95/</link>
+    <link>https://rainywinter.github.io/tags/%E6%B5%8B%E8%AF%95/</link>
     <description>Recent content in 测试 on 流水账日记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 01 Apr 2024 16:28:10 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rainywinter.github.io/tags/%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>厨艺</title>
-      <link>http://localhost:1313/posts/%E5%8E%A8%E8%89%BA/</link>
+      <link>https://rainywinter.github.io/posts/%E5%8E%A8%E8%89%BA/</link>
       <pubDate>Mon, 01 Apr 2024 16:28:10 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E5%8E%A8%E8%89%BA/</guid>
+      <guid>https://rainywinter.github.io/posts/%E5%8E%A8%E8%89%BA/</guid>
       <description>第二篇测试 周六做了一盘小炒肉，油放少了，导致五花肉没有煎出太多油，菜不香，肉吃起来也有点腻。 吃了一点，剩下了一大半在冰箱里。第二天忧郁着倒掉了，浪费啊</description>
     </item>
   </channel>
