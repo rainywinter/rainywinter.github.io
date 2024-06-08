@@ -41,6 +41,12 @@
     
 </head>
 
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
 <body>
     <header id="header" class="clearfix">
     <div class="container">
@@ -147,6 +153,7 @@
     <li><a href="#到达-南湖">到达 南湖</a></li>
     <li><a href="#第二天-西南湖">第二天 西南湖</a></li>
     <li><a href="#返程">返程</a></li>
+    <li><a href="#音乐">音乐</a></li>
   </ul>
 </nav>
     </div>
@@ -242,8 +249,25 @@
         <img class="mx-auto" alt="西南湖生态公园" src="xi-nan-hu-1.jpg" />   
     </p>
 <p>西南湖一隅</p>
-<div class="video-wrapper">
-    <video controls src="xi-nan-hu-video-1.mov"  >
+<style>
+    .meta-media {
+        position: relative;
+        margin-bottom: 30px;
+        display: flex;
+        width: 100%;
+        height: 0;
+        padding-bottom: 75%;
+    }
+
+    .video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+</style><div class="meta-media">
+    <video class="video" controls src="xi-nan-hu-video-1.mov"  >
         <p>
             Your browser doesn't support HTML5 video. Here is a
             <a href="xi-nan-hu-video-1.mov">link to the video</a> instead.
@@ -251,8 +275,25 @@
     </video>
 </div>
 <p>蹦蹦跳跳的对象
-<div class="video-wrapper">
-    <video controls src="xi-nan-hu-video-hui-na-1.mov"  >
+<style>
+    .meta-media {
+        position: relative;
+        margin-bottom: 30px;
+        display: flex;
+        width: 100%;
+        height: 0;
+        padding-bottom: 75%;
+    }
+
+    .video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+</style><div class="meta-media">
+    <video class="video" controls src="xi-nan-hu-video-hui-na-1.mov"  >
         <p>
             Your browser doesn't support HTML5 video. Here is a
             <a href="xi-nan-hu-video-hui-na-1.mov">link to the video</a> instead.
@@ -268,6 +309,11 @@
 <h2 id="返程">返程</h2>
 <p>在进车站到上车这段时间，不知道怎么说着说着提到了对象懒，不做饭刷碗，把对象整生气哭了。。</p>
 <p>大概2点半的样子到了上海南站，之后坐地铁，到家之后泡泡脚躺着不想动。</p>
+<h2 id="音乐">音乐</h2>
+
+
+<meting-js server="netease" type="playlist" id="9407511408"
+    autoplay="true"></meting-js>
 
         </div>
 
